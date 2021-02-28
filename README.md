@@ -17,5 +17,11 @@ To connect to the API you need a ubiops account and a key.
 I recommend adding your key to your .Renviron file. `usethis::edit_r_environ()`
 
 
+endpoints checked
 
+- [ ] organizations
+- [ ] permissions
+- [ ] projects
+- [x] status 
+- [ ] user
 

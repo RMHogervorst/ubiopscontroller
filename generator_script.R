@@ -151,7 +151,7 @@ writeLines(
     "}",
     "",
     "create_headers <- function(UBIOPS_TOKEN=NULL){",
-    '    add_headers("Authorization"= UBIOPS_TOKEN)',
+    '    httr::add_headers("Authorization"= UBIOPS_TOKEN)',
     "}"
     ),
     con = "R/utils.R"

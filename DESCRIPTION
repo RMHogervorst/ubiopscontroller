@@ -1,0 +1,24 @@
+Package: ubiopscontroller
+Title: Connect to the UbiOps API to manage your projects.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Roel M.",
+           family = "Hogervorst",
+           role = c("aut", "cre"),
+           email = "hogervorst.rm@gmail.com",
+           comment = c(ORCID = "0000-0001-7509-0328"))
+Description: Create deployments, pipelines and manage your 
+    projects too. UbiOps allows you to run python and R code
+    in a fully managed environment. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en_US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glue,
+    httr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
